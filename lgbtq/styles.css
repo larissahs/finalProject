@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  width: 100%;
+}
+
+header nav{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: pink;
+}
+.menu_bar{
+display: none;
+}
+header nav ul {
+  overflow: hidden;
+}
+ header nav ul li{
+   margin-right: 10px;
+   float: left;
+ }
+header nav ul li a{
+  color: white;
+  padding: 20px;
+  display: block;
+  text-decoration: none;}
+header nav ul li a:hover{
+  background:purple;
+}
+
+img {
+  width: 350px;
+  height: 200px;
+  margin-top: 355px;
+  margin-left: 33px;
+  margin-right: 25px;
+  border: 7px solid #BA8DB3;
+}
