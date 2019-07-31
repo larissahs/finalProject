@@ -96,7 +96,7 @@ margin-left: 450px;
 margin-bottom: 30px;
 }
 .footer{
-  position: relative;
+  /*position: relative;*/
   height: 200px;
   width: 100%;
   background-color:#BAC6D4;
@@ -104,24 +104,36 @@ margin-bottom: 30px;
 #hashtag{
 font-family: 'Poppins', sans-serif;
 font-size: 30px;
+display:flex;
+justify-content: center;
+}
+#at{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  display:flex;
+  justify-content: center;
 }
 .info{
-  font-family: 'Poppins', sans-serif;
-  margin-left: 550px;
+margin-bottom: 30px;
 }
+
 #ig{
-  height:80px;
+  height:30px;
   padding-left:300px;
+
+
 }
-.lgbtqbutton:hover{
+#img1:hover{
   background-image: none;
   background-color: #FAF1C9;
 }
-.pocbutton:hover{
+#img2:hover{
   background-image: none;
   background-color: #FAF1C9;
+  padding:25px;
 }
-.immigrantsbutton:hover{
+#img3:hover{
   background-image: none;
   background-color: #FAF1C9;
-} 
+  padding:25px;
+}
