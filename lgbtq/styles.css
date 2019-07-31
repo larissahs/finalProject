@@ -30,3 +30,12 @@ header nav ul li a{
 header nav ul li a:hover{
   background:purple;
 }
+
+img {
+  width: 350px;
+  height: 200px;
+  margin-top: 355px;
+  margin-left: 33px;
+  margin-right: 25px;
+  border: 7px solid #BA8DB3;
+}
