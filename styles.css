@@ -5,6 +5,7 @@
 }
 body{
   background-color: #BA8DB3;
+
 }
 img{
   height: 200px;
@@ -13,26 +14,39 @@ h1{
   padding-top: 30px;
   font-size: 100px;
   color: black;
+    font-family: 'Poppins', sans-serif;
 }
 .description{
+  margin-top: 15px;
   display:flex;
   justify-content: center;
-  height: 100px;
+  height: 150px;
 }
 #desc{
-  background-color: #FFF2BD;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #FFF2BD; */
+  background-color: #FFEE91;
   width:700px;
   border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px;
 }
 .header{
   display:flex;
   justify-content: center;
 }
 h2{
+    font-family: 'Poppins', sans-serif;
   font-size: 50px;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 500px;
+}
+#pride{
+  height:250px;
+}
+.row-img{
+  display: flex;
+  align-items: center;
 }
