@@ -96,7 +96,7 @@ height:300px;
 margin-top: 30px;
 margin-left: 450px;
 margin-bottom: 30px;
-border:6px solid #A7CCCA;
+border:6px solid black;
 }
 .footer{
   /*position: relative;*/
@@ -169,16 +169,16 @@ margin-top: 30px;
   font-size: 14px;
   display:flex;
   column-span: all;
-  margin:20px;
 }
 .bio {
   display:flex;
   column-span: all;
-  height: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* height: 150px; */
+  /* margin-left: 100px;
+  margin-right: 100px; */
   margin:20px;
   background-color:#A7CCCA;
+  border-radius: 5%;
 }
 .oo{
   background-color: grey:
