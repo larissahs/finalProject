@@ -4,7 +4,7 @@ var immigrantsbutton=$(".immigrantsbutton");
 
 lgbtqbutton.on("click", lgbtqpage);
 function lgbtqpage(){
-  window.location.href= "http://www.google.com";
+  window.location.href= "file:///Users/apple/Desktop/finalProject/lgbtq/index.html";
 }
 
 pocbutton.on("click", pocpage);
