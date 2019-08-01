@@ -235,3 +235,14 @@ padding:20px;
 .welcome{
   padding-bottom: 10px;
 }
+
+.buttonstuff{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  background-color: purple;
+}
