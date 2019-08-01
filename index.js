@@ -9,12 +9,12 @@ function lgbtqpage(){
 
 pocbutton.on("click", pocpage);
 function pocpage(){
-  window.location.href="http://www.google.com";
+  window.location.href="file:///Users/apple/Desktop/finalProject/poc/index.html";
 }
 
 immigrantsbutton.on("click", immigrantspage);
 function immigrantspage(){
-  window.location.href="http://www.google.com";
+  window.location.href="file:///Users/apple/Desktop/finalProject/immigrants/index.html";
 }
 
 
