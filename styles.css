@@ -23,6 +23,7 @@ h1{
   height: 150px;
 }
 #desc{
+  text-align:center;
   font-family: 'Poppins', sans-serif;
   background-color:#FFD1F8;
   width:700px;
@@ -81,6 +82,7 @@ h2{
   height: 150px;
 }
 #us-p{
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   background-color:#FFD1F8;
   width:700px;
@@ -169,13 +171,12 @@ margin-top: 30px;
   font-size: 14px;
   display:flex;
   column-span: all;
+    margin:20px;
 }
 .bio {
+  text-align: center;
   display:flex;
   column-span: all;
-  /* height: 150px; */
-  /* margin-left: 100px;
-  margin-right: 100px; */
   margin:20px;
   background-color:#A7CCCA;
   border-radius: 5%;
