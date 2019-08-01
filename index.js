@@ -4,7 +4,7 @@ var immigrantsbutton=$(".immigrantsbutton");
 
 lgbtqbutton.on("click", lgbtqpage);
 function lgbtqpage(){
-  window.location.href= "http://www.w3schools.com";
+  window.location.href= "http://www.google.com";
 }
 
 pocbutton.on("click", pocpage);
