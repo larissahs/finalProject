@@ -26,3 +26,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+var input = $('input').val();
+var containter = $(".containter");
+var button = $("button");
+//var answer=$(".answer");
+button.on('click', postit)
+function postit(){
+ var input=$("input").val();
+ console.log(input);
+ var container=$(".container")
+ container.append(`<p>${input}</p>`);
+}
