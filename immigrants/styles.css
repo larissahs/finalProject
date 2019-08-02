@@ -1,0 +1,304 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: white;
+}
+h4{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.eachresource{
+  text-align: center;
+}
+.links{
+  font-family: 'Poppins', sans-serif;
+}
+.aa{
+  border: 2px solid black;
+  margin: 20px;
+  background-color: #A7CCCA;
+}
+h2,h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  width: 100%;
+}
+
+header nav{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #FFD1F8;
+}
+.menu_bar{
+display: none;
+}
+header nav ul {
+  overflow: hidden;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+ header nav ul li{
+
+   float: left;
+   display: flex;
+   justify-content: center;
+ }
+header nav ul li a{
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav ul li a:hover{
+  background: #BA8DB3;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.stats{
+  display: flex;
+  justify-content: space-around;
+   background-color: #FFD1F8;
+   padding-bottom: 20px;
+   /* margin: 20px; */
+}
+#ss{
+  background-color: #FFD1F8;
+  padding-top: 10px;
+  /* margin: 20px; */
+}
+#stat{
+  width:350px;
+}
+#vid{
+  padding-top: 10px;
+  background-color: #A7CCCA;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  background-color: #A7CCCA;
+  padding-bottom: 40px;
+}
+#here{
+  padding-top: 15px;
+}
+.eachresource{
+  border: 10px solid #FAF1C9;
+  background-color: #BA8DB3;
+  color: white;
+  margin: 30px;
+  padding: 10px;
+
+}
+
+.resources{
+  display: flex;
+  justify-content: center;
+}
+.links{
+  color: white
+}
+.newsarticles1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.newsarticles2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+a{
+  color: black;
+  font-size: 18px;
+}
+#h{
+  background-color: #BA8DB3;
+  text-align: center;
+  padding:5px;
+  margin-bottom:25px;
+  color: black;
+}
+/*.article{
+  background-color: #A7CCCA;
+  border: 4px solid #FFD1F8;
+  color: white;
+}*/
+.news{
+  border: 2px solid black;
+  background-color: #FAF1C9;
+  margin:20px;
+  padding-bottom: 20px;
+}
+
+.intro{
+border: 8px solid #FFD1F8;
+background-color: #FAF1C9;
+margin:30px;
+padding:20px;
+}
+.welcome{
+  padding-bottom: 10px;
+}
+
+.buttonstuff{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  background-color: purple;
+}
+
+.footer{
+  /*position: relative;*/
+  height: 150px;
+  width: 100%;
+  background-color:#BAC6D4;
+  display:flex;
+  justify-content: center;
+}
+#hashtag{
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+
+}
+#at{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  /* display:flex;
+  justify-content: center; */
+}
+.info{
+margin-top: 30px;
+}
+#ig{
+  margin-top: 35px;
+  height:80px;
+}
