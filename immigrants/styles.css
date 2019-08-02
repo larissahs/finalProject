@@ -87,6 +87,7 @@ h1 {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  height: 1000px;
   position: relative;
   margin: auto;
 }
@@ -301,4 +302,8 @@ margin-top: 30px;
 #ig{
   margin-top: 35px;
   height:80px;
+}
+
+.mySlides-fade{
+  border: solid;
 }

@@ -273,7 +273,7 @@ padding:20px;
   display:flex;
   align-items:flex-end;
   justify-content:center;
-  background-color: #6DBDB8;
+  background-color: #FFD1F8;
 }
 
 .footer{
@@ -302,9 +302,13 @@ margin-top: 30px;
   margin-top: 35px;
   height:80px;
 }
-
 #text-here {
     display: block;
     text-align: center;
-
+}
+.exp{
+  background-color: #6DBDB8;
+  padding-top: 10px;
+  margin:20px;
+  border: 4px solid black;
 }
