@@ -4,17 +4,17 @@ var immigrantsbutton=$(".immigrantsbutton");
 
 lgbtqbutton.on("click", lgbtqpage);
 function lgbtqpage(){
-  window.location.href= "https://larissahs.github.io/finalProject/lgbtq/index.html";
+  window.location.href= "file:///Users/apple/Desktop/finalProject/lgbtq/index.html";
 }
 
 pocbutton.on("click", pocpage);
 function pocpage(){
-  window.location.href="https://larissahs.github.io/finalProject/poc/index.html";
+  window.location.href="file:///Users/apple/Desktop/finalProject/poc/index.html";
 }
 
 immigrantsbutton.on("click", immigrantspage);
 function immigrantspage(){
-  window.location.href="https://larissahs.github.io/finalProject/immigrants/index.html";
+  window.location.href="file:///Users/apple/Desktop/finalProject/immigrants/index.html";
 }
 
 
