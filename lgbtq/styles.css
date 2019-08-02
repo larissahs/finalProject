@@ -180,7 +180,7 @@ h1 {
 .stats{
   display: flex;
   justify-content: space-around;
-   background-color: #FFD1F8; 
+   background-color: #FFD1F8;
    padding-bottom: 20px;
    /* margin: 20px; */
 }
@@ -273,7 +273,7 @@ padding:20px;
   display:flex;
   align-items:flex-end;
   justify-content:center;
-  background-color: purple;
+  background-color: #6DBDB8;
 }
 
 .footer{
@@ -301,4 +301,10 @@ margin-top: 30px;
 #ig{
   margin-top: 35px;
   height:80px;
+}
+
+#text-here {
+    display: block;
+    text-align: center;
+
 }

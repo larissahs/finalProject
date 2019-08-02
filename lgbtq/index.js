@@ -32,8 +32,10 @@ var button = $("button");
 //var answer=$(".answer");
 button.on('click', postit)
 function postit(){
- var input=$("input").val();
- console.log(input);
- var container=$(".container")
- container.append(`<p>${input}</p>`);
+  var input=$("input").val();
+  console.log(input);
+  var container=$(".container");
+  container.append(
+    `<div>${input}</div>`);
+ $("input").val("");
 }
