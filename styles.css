@@ -41,15 +41,12 @@ h1{
 h2{
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
-  margin-top: 30px;
-  margin-left: 500px;
+  display:flex;
+  justify-content:center;
 }
 #xx{
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
-  margin-top: 30px;
-  margin-left: 550px;
-
 }
 #prideimg{
   height:250px;
@@ -92,12 +89,16 @@ h2{
   padding: 30px;
   font-size: 18px;
 }
-#us-img{
+.us-img{
 height:300px;
-margin-top: 30px;
-margin-left: 450px;
-margin-bottom: 30px;
-border:6px solid black;
+display: flex;
+justify-content: center;
+}
+#uu{
+  border:6px solid black;
+  height:300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .footer{
   /*position: relative;*/
@@ -181,5 +182,5 @@ margin-top: 30px;
   border-radius: 5%;
 }
 .oo{
-  background-color: grey:
+  background-color: grey;
 }
